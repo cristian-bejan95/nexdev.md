@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 function App() {
 	return (
 		<div>
-			<div className="container flex flex-col items-start justify-center h-screen gap-10 p-5 mx-auto">
+			<div className="flex flex-col items-start justify-center h-screen gap-10 p-5 mx-auto max-w-custom">
 				<div className="flex flex-col gap-2">
 					<div className="flex items-center">
 						<img src={logo} width={130} alt="Nexdev logo" />
