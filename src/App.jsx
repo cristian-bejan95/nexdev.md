@@ -7,9 +7,7 @@ function App() {
 			<div className="container flex flex-col items-start justify-center h-screen gap-10 p-5 mx-auto">
 				<div className="flex flex-col gap-2">
 					<div className="flex items-center">
-						<div href="/" className="logo">
-							<img src="images/nexdev.svg" width={130} alt="" />
-						</div>
+						<img src="images/nexdev.svg" width={130} alt="" />
 						<h1 className="title">NexDev</h1>
 					</div>
 					<p className="descr">Web Development and Maintenance.</p>
