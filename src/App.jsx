@@ -1,13 +1,15 @@
+import logo from "../images/nexdev.svg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
+
 function App() {
 	return (
 		<div>
 			<div className="container flex flex-col items-start justify-center h-screen gap-10 p-5 mx-auto">
 				<div className="flex flex-col gap-2">
 					<div className="flex items-center">
-						<img src="images/nexdev.svg" width={130} alt="" />
+						<img src={logo} width={130} alt="Nexdev logo" />
 						<h1 className="title">NexDev</h1>
 					</div>
 					<p className="descr">Web Development and Maintenance.</p>
